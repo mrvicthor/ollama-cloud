@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ollama-cloud
+    env: docker
+    plan: free
+    autoDeploy: false
+    ports:
+      - port: 11434
+        protocol: tcp
