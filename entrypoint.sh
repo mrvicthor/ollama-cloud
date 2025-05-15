@@ -7,7 +7,7 @@ ollama serve &
 sleep 5
 
 # Pull model
-ollama pull gemma:2b
+ollama pull phi
 
 # Keep container running
 wait
